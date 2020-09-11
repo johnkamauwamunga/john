@@ -1,0 +1,284 @@
+<!doxtype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/fonts.css">
+<script src="js/jquery1.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<style>
+body{
+font-family:"comic sans MS",san-serif;
+background-color:lightgreen;
+margin:0;
+}
+h2{
+background-color:forestgreen;
+text-align:center;
+padding:10px;
+color:white;
+}
+td{
+padding:7px;
+}
+input{
+height:25px;
+border-radius:10px;
+border:none;
+}
+
+input:focus{
+outline:none;
+border:1px solid forestgreen;
+}
+textarea{
+border-radius:10px;
+}
+textarea:focus{
+outline:none;
+border:1px solid forestgreen;
+}
+.button{
+background-color:forestgreen;
+color:white;
+font-size:18px;
+padding:0px 25px;
+border:one;
+margin-bottom:30px;
+}
+.button:hover{
+cursor:pointer;
+box-shadow:red;
+}
+h1{
+    color:darkmagenta;
+    background-color: darkturquoise;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="col-md-12 col-md-6 col-xs-12">
+
+
+
+<h1 align="center">online beauty application form</h1>
+<a href="sigin.html" class="mainer">back</a>
+<div id="personal-info">
+<h2> personal information</h2>
+<table width="100%">
+<tr>
+<td><label>first name<label></td>
+<td><input type="text" size="25"></td>
+
+<td><label>middle name<label></td>
+<td><input type="text" size="25"></td>
+
+<td><label>last name<label></td>
+<td><input type="text" size="25"></td>
+</tr>
+<tr>
+<td><label>id number<label></td>
+<td><input type="text" size="25"></td>
+
+<td><label>email<label></td>
+<td><input type="email" size="25"></td>
+
+</tr>
+
+<tr>
+<td>current address</td>
+<td>
+<textarea row="5" col="25"></textarea>
+</td>
+
+</tr>
+
+<tr>
+<td>Phone number</td>
+
+</tr>
+<tr>
+<td>Home Phone</td>
+<td><input type="text" size="25"></td>
+
+<td>Mobile number</td>
+<td><input type="number"></td>
+
+
+</tr>
+
+<tr>
+<td>Date of birth</td>
+<td>
+<input type="date">
+</td>
+
+<td>Place of birth</td>
+<td><input type="text" size="25px"></td>
+</tr>
+
+<tr>
+<td>Select Gender</td>
+
+<td><input type="radio" name="gender" value="male">male</td>
+<td><input type="radio" name="gender" value="female">female</td>
+<td><input type="radio" name="gender" value="transgender">others</td>
+</tr>
+
+<tr>
+<td>Highest qualification</td>
+<td><input type="text" size="25px"></td>
+
+<td>graduation year</td>
+<td><input type="date" size="25"></td>
+</tr>
+<tr>
+<td>languages you know</td>
+
+<td><input type="checkbox" name="language" value="France">France</td>
+<td><input type="checkbox" name="language" value="Engliush">English</td>
+<td><input type="checkbox" name="language" value="kiswahili">Kiswahili</td>
+</tr>
+
+
+<tr>
+<td>tell us something about yourself</td>
+<td><textarea rows="5" col="25"></textarea></td>
+</tr>
+
+
+</table>
+</div>
+
+<div id="education">
+<h2>Education details</h2>
+<table width="100%">
+<tr>
+<td>sNo</td>
+<td>Qualifications</td>
+<td>institute/university</td>
+<td>year of completion</td>
+<td>marks(%)</td>
+</tr>
+<tr>
+<td>1</td>
+<td><input type="text" size="25"></td>
+<td><input type="text" size="25"></td>
+<td><input type="month" size="25"></td>
+<td><input type="number" size="25" min="0" max="100"></td>
+<td></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><input type="text" size="25"></td>
+<td><input type="text" size="25"></td>
+<td><input type="month" size="25"></td>
+<td><input type="number" size="25" min="0" max="100"></td>
+<td></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><input type="text" size="25"></td>
+<td><input type="text" size="25"></td>
+<td><input type="month" size="25"></td>
+<td><input type="number" size="25" min="0" max="100"></td>
+<td></td>
+</tr>
+
+<tr>
+<td>4</td>
+<td><input type="text" size="25"></td>
+<td><input type="text" size="25"></td>
+<td><input type="month" size="25"></td>
+<td><input type="number"  min="0" max="100"></td>
+<td></td>
+</tr>
+
+</table>
+</div>
+
+<div id="work-experience1">
+<h2>work experience 1</h2>
+<table width="100%">
+<tr>
+<td>sNo</td>
+<td>company address</td>
+<td>Work/Role</td>
+<td colspan="2">Duration(from - to)</td>
+
+</tr>
+
+<td>1</td>
+<td><textarea rows="5" col="25"></textarea></td>
+<td><textarea rows="5" col="25"></textarea></td>
+<td><input type="month"></td>
+<td><input type="month"></td>
+</table>
+</div>
+
+<div id="work-experience2">
+<h2>work experience 2</h2>
+<table width="100%">
+<tr>
+<td>sNo</td>
+<td>company address</td>
+<td>Work/Role</td>
+<td colspan="2">Duration(from - to)</td>
+
+</tr>
+
+<td>1</td>
+<td><textarea rows="5" col="25"></textarea></td>
+<td><textarea rows="5" col="25"></textarea></td>
+<td><input type="month"></td>
+<td><input type="month"></td>
+</table>
+</div>
+
+<div id="work-experience3">
+<h2>work experience 3</h2>
+<table width="100%">
+<tr>
+<td>sNo</td>
+<td>company address</td>
+<td>Work/Role</td>
+<td colspan="2">Duration(from - to)</td>
+
+</tr>
+
+<td>1</td>
+<td><textarea rows="5" col="25"></textarea></td>
+<td><textarea rows="5" col="25"></textarea></td>
+<td><input type="month"></td>
+<td><input type="month"></td>
+</table>
+</div>
+
+<div id="other-details">
+<h2>other details</h2>
+<table width="100%">
+<tr>
+<td> prefered Job type</td>
+<td><input type="radio" name="job" value="permanent">permanent</td>
+<td><input type="radio" name="job" value="contract">contract</td>
+<td><input type="radio" name="job" value="others">others</td>
+</tr>
+<tr>
+
+    <td><input type="checkbox"></td>
+<td colspan="3">This is confirm that the above given information is true</td>
+
+</tr>
+<tr>
+<td><input type="submit" value="submit" class="button"></td>
+<td><input type="reset" value="reset" class="button"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>
